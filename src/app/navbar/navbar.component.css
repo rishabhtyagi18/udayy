@@ -119,11 +119,11 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .textbox-1{
-    margin-left: 10em;
+    margin-left: 5em;
 }
 .textbox-2{
     position: relative;
-    left: -13em;
+    left: 27em;
 }
 .logout-btn{
     position: relative;
@@ -143,4 +143,8 @@
     left: 1em;
     width: 8em;
     font-weight: 600;
+    color: #fff;
+}
+.input-box{
+ width: 14em;
 }

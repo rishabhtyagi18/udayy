@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- <div class="navbar-nav"> -->
+            <span class="nav-item nav-link active user">Hi Test</span>
+            <div class="input-box">
+            <input type="text" class="form-control mr-sm-2 textbox-1" placeholder="Texst Box1" [(ngModel)]="textbox1" (ngModelChange)="firstUrlChange($event)">
+            </div>
+            
+        <!-- </div>  -->
+        <div>
+        <input type="text" class="form-control mr-sm-2 textbox-2"
+            [(ngModel)]="textbox2" (ngModelChange)="secondUrlChange($event)" placeholder="Text Box2"></div>
+        <form class="form-inline ml-auto">
+            
+            <button type="submit" class="btn btn-outline-light logout-btn" (click)="logout($event)">Logout</button>
+        </form>
+    </div>
+</nav>
